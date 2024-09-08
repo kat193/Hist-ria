@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'Times New Roman', serif; /* Fonte elegante e legível */
+    background-color: #0e0230;
+    color: #03074f;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #0a0e59;
+    color: #070821;
+    padding: 5%;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #babac1de;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #babac1de;
+  }
+  
+  p {
+    line-height: 1.5;
+    text-align: justify;
+    color: #babac1de;
+  }
+  /*estilizar botão*/
+  button {
+    background-color: #030122;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* capítulos */
+  #capitulo1, #capitulo2 {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /*imagem*/
+  .imagem {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #0a0249;
+    color: #b0b0b1;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
